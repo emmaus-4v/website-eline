@@ -6,7 +6,7 @@ html, body {
     background-color: #c5f6ff;  
     
     color: #303030;
-    font: Verdana, Arial, Sans-Serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 
@@ -47,23 +47,30 @@ img.zweefLinks {
 
 #bvnummers {
     width: 300px;
+    margin-top: 7px;
+}
+
+#blauwe-vinvis {
+    width: 275px;
 }
 
 /* specifieke stylen */
 
+h4 {
+    line-height: 5px;
+}
 .smalltext {
     font-size: 0.7em;
 }
 
 a {
-    color: rgb(84, 188, 230);
+    color: rgb(1, 119, 165);
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
 }
-
 
 /* navigatiebalk */
 nav ul {
