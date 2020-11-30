@@ -34,8 +34,7 @@ footer {
 }
 
 
-/* specifieke stijlen */
-
+/* fotos */
 img.zweefRechts {
     float: right;
     margin-left: 15px;
@@ -46,12 +45,18 @@ img.zweefLinks {
     margin-right: 15px;
 }
 
+#bvnummers {
+    width: 300px;
+}
+
+/* specifieke stylen */
+
 .smalltext {
     font-size: 0.7em;
 }
 
 a {
-    color: skyblue;
+    color: rgb(84, 188, 230);
     text-decoration: none;
 }
 
