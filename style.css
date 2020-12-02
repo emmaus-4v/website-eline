@@ -45,6 +45,18 @@ img.zweefLinks {
     margin-right: 15px;
 }
 
+#logo1 {
+    width: 60px;
+    float: left;
+    margin: 5px;
+}
+
+#logo2 {
+    width: 60px;
+    float: right;
+    margin: 5px;
+}
+
 #bvnummers {
     width: 300px;
     margin-top: 7px;
@@ -52,12 +64,18 @@ img.zweefLinks {
 
 #blauwe-vinvis {
     width: 275px;
+    margin-top: 7px;
 }
 
 #krill {
-    width: 320px;
-    margin-top: 7px
+    width: 240px;
+    margin-top: 7px;
+}
 
+#leefgebied {
+    width: 300px;
+    border: solid black 1px;
+    margin-top: 7px;
 }
 
 /* Weetjes */
@@ -68,30 +86,36 @@ img.zweefLinks {
 }
 
 #w1 {
-    width: 168px;
+    width: 154px;
+    float: left;
 }
 
 #w2 {
-    width: 168px;
-    float: right;
+    width: 154px;
+    float: left;
 }
 
 #w3 {
-    width: 168px;
-    float: middle;
+    width: 154px;
+    float: left;
 }
 
 #w4 {
-    width: 168px;
+    width: 154px;
     float: right;
 }
 
 #w5 {
-    width: 168px;
+    width: 154px;
     float: right;
 }
 
 /* specifieke stylen */
+
+footer {
+    clear: both;
+}
+
 h4 {
     line-height: 5px;
 }
@@ -109,6 +133,7 @@ a:hover {
 }
 
 /* navigatiebalk */
+
 nav ul {
     list-style-type: none;
     margin: auto;
