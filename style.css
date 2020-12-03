@@ -4,11 +4,9 @@ html, body {
     height: 100%;
     padding: 0;
     background-color: #c5f6ff;  
-    
     color: #303030;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-
 
 main {
     margin: 0 auto;
@@ -35,6 +33,7 @@ footer {
 
 
 /* fotos */
+
 img.zweefRechts {
     float: right;
     margin-left: 15px;
@@ -58,7 +57,7 @@ img.zweefLinks {
 }
 
 #bvnummers {
-    width: 300px;
+    width: 290px;
     margin-top: 7px;
 }
 
@@ -83,29 +82,15 @@ img.zweefLinks {
 .weetjes {
     border: solid rgb(34, 36, 187);
     margin: 10px;
+    height: 135px;
 }
 
-#w1 {
+#w1-2-3 {
     width: 154px;
     float: left;
 }
 
-#w2 {
-    width: 154px;
-    float: left;
-}
-
-#w3 {
-    width: 154px;
-    float: left;
-}
-
-#w4 {
-    width: 154px;
-    float: right;
-}
-
-#w5 {
+#w4-5 {
     width: 154px;
     float: right;
 }
@@ -117,7 +102,15 @@ footer {
 }
 
 h4 {
-    line-height: 5px;
+    background-color: skyblue;
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h5 {
+    margin-top: 7px;
+    margin-bottom: 10px;
 }
 .smalltext {
     font-size: 0.7em;
@@ -133,6 +126,10 @@ a:hover {
 }
 
 /* navigatiebalk */
+
+nav {
+    margin-bottom: 15px;
+}
 
 nav ul {
     list-style-type: none;
