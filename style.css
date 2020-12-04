@@ -84,12 +84,17 @@ img.zweefLinks {
 
 #stamboom {
     width: 300px;
-    margin: 7px;
+    margin-top: 7px;
 }
 
 #harpoen {
     width: 260px;
-    margin: 7px;
+    margin-top: 7px;
+}
+
+#sprong {
+    width: 350px;
+    margin-top: 7px;
 }
 
 /* Weetjes */
