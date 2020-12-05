@@ -3,10 +3,13 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #c5f6ff;  
+    background-color: #ebfcff;  
     color: #000000;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
 }
+
+/* c5f6ff ebfcff */ 
 
 main {
     margin: 0 auto;
@@ -61,7 +64,7 @@ img.zweefLinks {
 }
 
 #blauwe-vinvis {
-    width:300px;
+    width: 300px;
     margin-top: 7px;
     margin-bottom: 7px;
 }
@@ -133,11 +136,13 @@ div h5 {
 
 /* specifieke stylen */
 
+#intro {
+    font-weight: bold;
+}
 
 #relaties-kopje {
     clear: both;
 }
-
 
 footer {
     clear: both;
@@ -146,8 +151,8 @@ footer {
 h4 {
     background-color: skyblue;
     height: 24px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 h5 {
