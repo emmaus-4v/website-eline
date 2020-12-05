@@ -133,14 +133,11 @@ div h5 {
 
 /* specifieke stylen */
 
+
 #relaties-kopje {
     clear: both;
 }
 
-table {
-    border: solid black;
-    margin-bottom: 5px;
-}
 
 footer {
     clear: both;
