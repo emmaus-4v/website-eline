@@ -78,10 +78,16 @@ img.zweefLinks {
     margin-top: 7px;
 }
 
+#happen {
+    width: 320px;
+    margin-top: 7px;
+}
+
 #leefgebied {
     width: 300px;
     border: solid black 1px;
     margin-top: 7px;
+    margin-bottom: 13px;
 }
 
 #orka {
@@ -139,6 +145,15 @@ div h5 {
 }
 
 /* specifieke stylen */
+
+#onder-kaart {
+    width: 300px;
+    position: absolute;
+    right: 0px;
+    top: 465px;
+    font-size: 14px;
+    text-align: center;
+}
 
 #intro {
     font-weight: bold;
