@@ -63,51 +63,51 @@ img.zweefLinks {
     
 }
 #bvnummers {
-    width: 320px;
-    margin-top: 7px;
+    width: 520px;
+    margin-top: 4px;
 }
 
 #blauwe-vinvis {
     width: 300px;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    margin-top: 4px;
 }
 
 #krill {
     width: 240px;
-    margin-top: 7px;
+    margin-top: 4px;
 }
 
 #happen {
-    width: 320px;
-    margin-top: 7px;
+    width: 318px;
+    margin-top: 8px;
 }
 
 #leefgebied {
     width: 300px;
     border: solid black 1px;
-    margin-top: 7px;
+    margin-top: 4px;
     margin-bottom: 13px;
 }
 
 #orka {
-    width: 150px;
-    margin-top: 7px;
+    width: 190px;
+    margin-top: 4px;
 }
 
-#stamboom {
-    width: 300px;
-    margin-top: 7px;
+#moeder-kalf {
+    width: 330px;
+    margin-top: 4px;
 }
 
 #harpoen {
-    width: 260px;
-    margin-top: 7px;
+    width: 272px;
+    margin-top: 4px;
 }
 
 #sprong {
-    width: 350px;
-    margin-top: 7px;
+    width: 375px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* Weetjes */
@@ -150,7 +150,7 @@ div h5 {
     width: 300px;
     position: absolute;
     right: 0px;
-    top: 465px;
+    top: 475px;
     font-size: 14px;
     text-align: center;
 }
