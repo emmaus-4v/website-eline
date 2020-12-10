@@ -116,6 +116,7 @@ img.zweefLinks {
     border: solid skyblue;
     margin: 10px;
     height: 135px;
+    margin-bottom: 30px;
 }
 
 #w1, #w2, #w3 {
@@ -145,6 +146,14 @@ div h5 {
 }
 
 /* specifieke stylen */
+
+#volgende {
+    float: right;
+}
+
+#vorige {
+    float: left;
+}
 
 #onder-kaart {
     width: 300px;
