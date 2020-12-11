@@ -46,16 +46,16 @@ img.zweefLinks {
     margin-right: 15px;
 }
 
-#logo1 {
+.logos {
     width: 60px;
-    float: left;
     margin: 5px;
+}
+#logo1 {
+    float: left;
 }
 
 #logo2 {
-    width: 60px;
     float: right;
-    margin: 5px;
 }
 
 #blauwe-vinvis-bovenin {
@@ -168,10 +168,6 @@ div h5 {
     font-weight: bold;
 }
 
-#relaties-kopje {
-    clear: both;
-}
-
 footer {
     clear: both;
 }
@@ -187,9 +183,12 @@ h5 {
     margin-top: 7px;
     margin-bottom: 10px;
 }
+
 .smalltext {
     font-size: 0.7em;
 }
+
+/* links */
 
 a {
     color: rgb(9, 0, 88);
