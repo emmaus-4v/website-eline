@@ -114,9 +114,12 @@ img.zweefLinks {
 
 .weetjes {
     border: solid skyblue;
-    margin: 10px;
+    margin: 6px;
     height: 135px;
     margin-bottom: 30px;
+    padding: 4px;
+    text-align: left;
+
 }
 
 #w1, #w2, #w3 {
