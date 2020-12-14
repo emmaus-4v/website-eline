@@ -116,7 +116,6 @@ img.zweefLinks {
     margin-bottom: 30px;
     padding: 4px;
     text-align: left;
-    opacity: 0;
 
 }
 
@@ -194,14 +193,16 @@ h5 {
     0% { opacity: 0;
     }
 
+    50% { opacity: 0;
+    }
+
     100% { opacity: 1;
            
     }
 }
 
 .fadein {
-    animation: fadein 5s;
-    animation-delay: 2s;
+    animation: fadein 10s;
 }
 
 @keyframes slide {
