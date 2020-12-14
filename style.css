@@ -9,8 +9,6 @@ html, body {
     font-size: 17px;
 }
 
-/* c5f6ff ebfcff */ 
-
 main {
     margin: 0 auto;
     width: 900px;
@@ -40,6 +38,10 @@ footer {
 
 /* fotos */
 
+img {
+    margin-top: 4px;
+}
+
 img.zweefRechts {
     float: right;
     margin-left: 15px;
@@ -68,17 +70,14 @@ img.zweefLinks {
 }
 #bvnummers {
     width: 520px;
-    margin-top: 4px;
 }
 
 #blauwe-vinvis {
-    width: 300px;
-    margin-top: 4px;
+    width: 400px;
 }
 
 #krill {
-    width: 240px;
-    margin-top: 4px;
+    width: 235px;
 }
 
 #happen {
@@ -89,29 +88,23 @@ img.zweefLinks {
 #leefgebied {
     width: 300px;
     border: solid black 1px;
-    margin-top: 4px;
     margin-bottom: 13px;
 }
 
 #orka {
-    width: 190px;
-    margin-top: 4px;
+    width: 197px;
 }
 
 #moeder-kalf {
-    width: 330px;
-    margin-top: 4px;
+    width: 320px;
 }
 
 #harpoen {
-    width: 272px;
-    margin-top: 4px;
+    width: 330px;
 }
 
 #sprong {
-    width: 375px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    width: 460px;
 }
 
 /* Weetjes */
@@ -123,6 +116,7 @@ img.zweefLinks {
     margin-bottom: 30px;
     padding: 4px;
     text-align: left;
+    opacity: 0;
 
 }
 
@@ -193,6 +187,34 @@ h5 {
 
 .smalltext {
     font-size: 0.7em;
+}
+/* animatie */
+
+@keyframes fadein {
+    0% { opacity: 0;
+    }
+
+    100% { opacity: 1;
+           
+    }
+}
+
+.fadein {
+    animation: fadein 5s;
+    animation-delay: 2s;
+}
+
+@keyframes slide {
+    0% { left: -1000px;
+    }
+
+    100% { left: 0px;
+    }
+}
+
+.slide {
+    position: relative;
+    animation: slide 3s;
 }
 
 /* links */
